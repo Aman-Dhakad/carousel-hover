@@ -1,0 +1,24 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-image: linear-gradient(45deg, #2465a185,#da137d73) ;
+}
+.item{
+position: relative;
+margin-top: 50%;
+}
+.card{
+position:absolute;
+top: 355px;
+background-color: chocolate;
+width: 100%;
+height: 100%;
+transition: all 1s ease-in-out;
+text-align: center;
+color: #fff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.item:hover .card{
+top: 200px;
+}
